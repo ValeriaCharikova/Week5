@@ -1,0 +1,39 @@
+.body {
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+.header,
+.footer {
+  background-color: rgb(224, 224, 224);
+  flex: 0 0 content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main {
+  background-color: #fff8e3;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+.section {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.subsection {
+  background-color: rgb(254, 234, 185);
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+.aside {
+  background-color: rgb(221, 236, 203);
+  width: 40vh;
+}
+.footersection {
+  background-color: rgb(250, 250, 250);
+}
