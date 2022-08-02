@@ -27,9 +27,11 @@
 }
 .subsection {
   background-color: rgb(254, 234, 185);
-  flex-basis: 50%;
+  flex-basis: 45%;
   flex-grow: 1;
+  margin: 30px;
 }
+
 .aside {
   background-color: rgb(221, 236, 203);
   width: 40vh;
